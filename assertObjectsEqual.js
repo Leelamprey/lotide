@@ -37,7 +37,3 @@ const assertObjectsEqual = function(actual, expected) {
     return false;
   }
 };
-
-const ab = {a: "11", b: "21"};
-const ba = {b: "21", a: "11"};
-assertObjectsEqual(ab, ba); 
